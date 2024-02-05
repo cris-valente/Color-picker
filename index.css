@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.color-picker {
+    height: 42px;
+    width: 61px;
+    border: #FFFDFE solid 1px;
+}
+select{
+    height: 42px;
+    width: 312px;
+    border: 1px #D1D5DB solid;
+    border-radius: 6px;
+    color: #111827;
+
+}
+
+.custom-select {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+
+.btn {
+    background-color: white;
+    height: 42px;
+    width: 123px;
+    border: 1px #D1D5DB solid;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #374151;
+    cursor: pointer;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+}
+
+.btn:active{
+    background-color: #D1D5DB;
+    border: 1px #D1D5DB inset;
+}
+
+.controls {
+    height: 16vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 750px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 11px 0px #00000026;
+
+}
+
+.color-palette{
+    height: 83vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 10fr 1fr;
+
+}
+
+.hex{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: #2B283A;
+    background-color: #FFFDFE;
+
+}
