@@ -45,6 +45,7 @@ function getColorScheme(){
         })
 }
 
+// In progress...
 function copyColor() {
     
     // Copy the text inside the text field
