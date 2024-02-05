@@ -19,15 +19,15 @@ function getColorScheme(){
             document.getElementById('color-palette').innerHTML = `
             <div 
                 class="color" 
-                style="background-color:${pickedColor};">
-            </div>
-            <div 
-                class="color" 
                 style="background-color:${data.colors[0].hex.value};">
             </div>
             <div 
                 class="color" 
                 style="background-color:${data.colors[1].hex.value};">
+            </div>
+            <div 
+                class="color" 
+                style="background-color:${pickedColor};">
             </div>
             <div 
                 class="color" 
@@ -37,9 +37,9 @@ function getColorScheme(){
                 class="color" 
                 style="background-color:${data.colors[3].hex.value};">
             </div>
-            <div class="hex">${pickedColor}</div>
             <div class="hex">${data.colors[0].hex.value}</div>
             <div class="hex">${data.colors[1].hex.value}</div>
+            <div class="hex">${pickedColor}</div>
             <div class="hex">${data.colors[2].hex.value}</div>
             <div class="hex">${data.colors[3].hex.value}</div>`
         })
