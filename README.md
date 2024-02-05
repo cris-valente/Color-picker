@@ -1,6 +1,6 @@
 # Color Picker
 
-**Overview
+## Overview
 
 This app uses an external API to generate a color palette based on options chosen by user
 
