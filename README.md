@@ -1,4 +1,8 @@
-# co9f44563acc96eda08758d7a
+# Color Picker
+
+**Overview
+
+This app uses an external API to generate a color palette based on options chosen by user
 
 Quick start:
 
