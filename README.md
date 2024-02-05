@@ -4,6 +4,10 @@
 
 This app uses an external API to generate a color palette based on options chosen by user
 
+## Next steps
+
+Provide dark mode and copy color on click
+
 ## About Scrimba
 
 At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
